@@ -1,0 +1,23 @@
+ .merriweather-header {
+     font-family: "Merriweather", serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+     font-variation-settings:
+         "wdth" 100;
+     padding: 88px 200px;
+ }
+
+ header {
+     background-image: url(../images/Banner\ Image.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 1100px;
+     height: 600px;
+     margin-top: 50px;
+     margin-right: auto;
+     margin-left: auto;
+     justify-content: center;
+     text-align: center;
+     color: white;
+ }
