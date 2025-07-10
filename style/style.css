@@ -5,11 +5,18 @@
      font-style: normal;
      font-variation-settings:
          "wdth" 100;
-     padding: 88px 200px;
+     /* padding: 88px 200px; */
  }
 
- header {
-     background-image: url(../images/Banner\ Image.png);
+ .inter-section1 {
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+ }
+
+ .header {
+
      background-size: contain;
      background-repeat: no-repeat;
      width: 1100px;
@@ -18,6 +25,128 @@
      margin-right: auto;
      margin-left: auto;
      justify-content: center;
-     text-align: center;
+
      color: white;
+     /* padding: 88px 200px; */
+ }
+
+ .sndPage {
+     text-align: center;
+     color: #FF0000;
+     padding-bottom: 48px;
+ }
+
+ .img {
+     height: 600px;
+     width: 600px;
+     margin-top: 20px;
+     margin-right: auto;
+     margin-left: 250px;
+
+ }
+
+ .party {
+     text-align: left;
+     padding-left: 50px;
+     padding-right: 500px;
+     padding-bottom: 0px;
+     padding-top: 40px;
+ }
+
+ .join {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: left;
+     padding-left: 70px;
+     padding-top: 40px;
+ }
+
+ .color {
+     background: linear-gradient(#fdd3d3, white);
+     width: 1100px;
+     height: 400px;
+     margin-top: 50px;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius: 10px;
+     text-align: center;
+     padding-top: 60px;
+
+ }
+
+ .btn {
+     border: none;
+     background: none;
+     font-size: 22px;
+     font-weight: bold;
+     color: #ffffff;
+ }
+
+ .round {
+     border: 10px solid #FF0000;
+     border-radius: 50%;
+     padding: 8px;
+     display: inline-block;
+
+
+ }
+
+ .flex {
+     display: flex;
+     width: 1100px;
+     height: 400px;
+     margin-top: 50px;
+     margin-right: auto;
+     margin-left: auto;
+
+ }
+
+ .description {
+     color: #727073;
+     font-size: 20px;
+     font-weight: 500px;
+ }
+
+ .org {
+     width: 1100px;
+     height: max-content;
+     margin-top: 50px;
+     margin-right: auto;
+     margin-left: auto;
+     align-content: baseline;
+
+
+ }
+
+ .grid {
+     display: grid;
+
+ }
+
+ .item {
+     height: 400px;
+     width: 100%;
+     border-radius: 16px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+
+ }
+
+ .email {
+     color: #686869;
+     height: 50px;
+     width: 448px;
+     border-radius: 50px 0px 0px 50px;
+     padding-right: 0px;
+
+ }
+
+ .sub {
+     background-color: #FF0000;
+     width: 200px;
+     height: 55px;
+     color: white;
+     border-radius: 0px 50px 50px 0px;
+     padding-left: 0%;
  }
